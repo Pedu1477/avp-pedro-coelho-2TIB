@@ -83,9 +83,6 @@ app.delete("/alunos/:id", (req, res) => {
   });
 });
 
-  
-
-
 app.post("/alunos", (req, res) => {
   const novoAluno = {
     id: alunos.length + 1,
